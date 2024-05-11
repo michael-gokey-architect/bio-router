@@ -12,8 +12,8 @@ const routes: Routes = [
   },
   {
     path: 'guest-home',
-    component: GuestDisplayComponent,
-    children: [{ path: 'module-one', component: GuestDisplayComponent }],
+    component: GuestHomeComponent,
+    children: [{ path: 'module-one', component: GuestHomeComponent }],
   },
   {
     path: 'guest-edit',
@@ -22,8 +22,8 @@ const routes: Routes = [
   },
   {
     path: 'guest-display',
-    component: GuestHomeComponent,
-    children: [{ path: 'module-one', component: GuestHomeComponent }],
+    component: GuestDisplayComponent,
+    children: [{ path: 'module-one', component: GuestDisplayComponent }],
   },
 ];
 
